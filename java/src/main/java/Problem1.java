@@ -5,7 +5,7 @@ public class Problem1 {
 
   public static void main(String[] args) throws Throwable {
     Set<Integer> set = new HashSet<>();
-    int total = 1000000;
+    int total = 1000;
     set.addAll(getMultOf(3, total));
     set.addAll(getMultOf(5, total));
 
